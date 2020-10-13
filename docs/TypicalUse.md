@@ -2,7 +2,7 @@
 
 ## Pins
 
-| Tables        | Are           |
+| Pin        | Description           |
 |:-------------:|:-------------:|
 | Vin      | Input Voltage (3.3V to 17V) |
 | GND      | The ground pin      |
