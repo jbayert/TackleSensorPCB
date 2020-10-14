@@ -3,4 +3,6 @@
   (lib (name MSP430FR2433)(type KiCad)(uri ${KIPRJMOD}/Components/MSP430FR2433IRGER)(options "")(descr ""))
   (lib (name PJ-037A)(type KiCad)(uri ${KIPRJMOD}/Components/PJ-037A)(options "")(descr ""))
   (lib (name TPS62172DSGR)(type KiCad)(uri ${KIPRJMOD}/Components/TPS62172DSGR/footprints.pretty)(options "")(descr ""))
+  (lib (name SOD-123FL)(type KiCad)(uri ${KIPRJMOD}/Components/SOD-123FL)(options "")(descr ""))
+  (lib (name TS-1187A-B-A-B)(type KiCad)(uri ${KIPRJMOD}/Components/TS-1187A-B-A-B)(options "")(descr ""))
 )

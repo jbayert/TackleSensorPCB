@@ -1,4 +1,4 @@
-18633258397596401
+18636463695120216
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75445,6 +75445,13 @@ rotary encoder
 0
 5
 4
+SOD-123FL
+SOD123FL
+
+
+0
+2
+2
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -76859,6 +76866,13 @@ TPS62172DSGR
 0
 11
 10
+TS-1187A-B-A-B
+SW_TS-1187A-B-A-B
+
+
+0
+4
+4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
