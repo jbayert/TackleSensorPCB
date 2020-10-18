@@ -422,7 +422,7 @@ U 1 1 5F860C48
 P 9800 5850
 F 0 "J4" H 9908 6331 50  0000 C CNN
 F 1 "Conn_01x07_Male" H 9908 6240 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal" H 9800 5850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 9800 5850 50  0001 C CNN
 F 3 "~" H 9800 5850 50  0001 C CNN
 	1    9800 5850
 	1    0    0    -1  
@@ -440,8 +440,6 @@ F 3 "" H 10350 5550 50  0001 C CNN
 	1    10350 5550
 	1    0    0    -1  
 $EndComp
-Text GLabel 10000 5750 2    50   Input ~ 0
-3V3
 Text GLabel 10000 5850 2    50   Input ~ 0
 RXD
 Text GLabel 10000 5950 2    50   Input ~ 0
@@ -774,4 +772,17 @@ Wire Wire Line
 Wire Wire Line
 	1400 1650 1650 1650
 Connection ~ 1650 1650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F87745C
+P 10150 5750
+F 0 "#PWR?" H 10150 5600 50  0001 C CNN
+F 1 "+3.3V" H 10165 5923 50  0000 C CNN
+F 2 "" H 10150 5750 50  0001 C CNN
+F 3 "" H 10150 5750 50  0001 C CNN
+	1    10150 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 5750 10150 5750
 $EndSCHEMATC
