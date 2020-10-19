@@ -2,4 +2,5 @@
   (lib (name MSP430FR2433IRGER)(type Legacy)(uri ${KIPRJMOD}/Components/MSP430FR2433IRGER/MSP430FR2433IRGER.lib)(options "")(descr ""))
   (lib (name MMA8452QR1)(type Legacy)(uri ${KIPRJMOD}/Components/MMA8452QR1/MMA8452QR1.lib)(options "")(descr ""))
   (lib (name PJ-037A)(type Legacy)(uri ${KIPRJMOD}/Components/PJ-037A/PJ-037A.lib)(options "")(descr ""))
+  (lib (name LIS2DH12TR)(type Legacy)(uri ${KIPRJMOD}/Components/LIS2DH12TR/LIS2DH12TR.lib)(options "")(descr ""))
 )

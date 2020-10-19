@@ -5,4 +5,5 @@
   (lib (name TPS62172DSGR)(type KiCad)(uri ${KIPRJMOD}/Components/TPS62172DSGR/footprints.pretty)(options "")(descr ""))
   (lib (name SOD-123FL)(type KiCad)(uri ${KIPRJMOD}/Components/SOD-123FL)(options "")(descr ""))
   (lib (name TS-1187A-B-A-B)(type KiCad)(uri ${KIPRJMOD}/Components/TS-1187A-B-A-B)(options "")(descr ""))
+  (lib (name LIS2DH12TR)(type KiCad)(uri ${KIPRJMOD}/Components/LIS2DH12TR)(options "")(descr ""))
 )
