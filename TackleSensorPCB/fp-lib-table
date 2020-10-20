@@ -6,4 +6,6 @@
   (lib (name SOD-123FL)(type KiCad)(uri ${KIPRJMOD}/Components/SOD-123FL)(options "")(descr ""))
   (lib (name TS-1187A-B-A-B)(type KiCad)(uri ${KIPRJMOD}/Components/TS-1187A-B-A-B)(options "")(descr ""))
   (lib (name LIS2DH12TR)(type KiCad)(uri ${KIPRJMOD}/Components/LIS2DH12TR)(options "")(descr ""))
+  (lib (name PTS636_Tactile_Switch)(type KiCad)(uri C:/Users/jonb1/Documents/GitHub/TackleSensorPCB/TackleSensorPCB/Components/PTS636_Tactile_Switch)(options "")(descr ""))
+  (lib (name FSM4JSMA)(type KiCad)(uri C:/Users/jonb1/Documents/GitHub/TackleSensorPCB/TackleSensorPCB/Components/FSM4JSMA)(options "")(descr ""))
 )

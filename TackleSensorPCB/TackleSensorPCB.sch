@@ -252,17 +252,6 @@ F 3 "~" H 7900 6050 50  0001 C CNN
 	1    7900 6050
 	-1   0    0    1   
 $EndComp
-$Comp
-L Switch:SW_DPST_x2 SW1
-U 1 1 5F85059A
-P 7700 5300
-F 0 "SW1" H 7700 5535 50  0000 C CNN
-F 1 "SW_DPST_x2" H 7700 5444 50  0000 C CNN
-F 2 "TS-1187A-B-A-B:SW_TS-1187A-B-A-B" H 7700 5300 50  0001 C CNN
-F 3 "~" H 7700 5300 50  0001 C CNN
-	1    7700 5300
-	1    0    0    -1  
-$EndComp
 Text GLabel 7450 6050 0    50   Input ~ 0
 L0
 Wire Wire Line
@@ -278,9 +267,7 @@ F 3 "" H 8100 5300 50  0001 C CNN
 	1    8100 5300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7500 5300 7350 5300
-Text GLabel 7350 5300 0    50   Input ~ 0
+Text GLabel 6900 5300 0    50   Input ~ 0
 SW0
 $Comp
 L Device:R R5
@@ -755,4 +742,38 @@ $EndComp
 Wire Wire Line
 	9000 1700 8700 1700
 Connection ~ 8700 1700
+$Comp
+L FSM4JSMA:FSM4JSMA SW1
+U 1 1 5F922F9E
+P 7550 5300
+F 0 "SW1" H 7500 5665 50  0000 C CNN
+F 1 "FSM4JSMA" H 7500 5574 50  0000 C CNN
+F 2 "FSM4JSMA:TE_FSM4JSMA" H 7550 5300 50  0001 L BNN
+F 3 "50 mA" H 7550 5300 50  0001 L BNN
+F 4 "4-1437565-1" H 7550 5300 50  0001 L BNN "Field4"
+F 5 "Compliant" H 7550 5300 50  0001 L BNN "Field5"
+F 6 "Single Pole - Single Throw" H 7550 5300 50  0001 L BNN "Field6"
+	1    7550 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 5300 7900 5200
+Wire Wire Line
+	7900 5200 7850 5200
+Wire Wire Line
+	7900 5300 7900 5400
+Wire Wire Line
+	7900 5400 7850 5400
+Connection ~ 7900 5300
+Wire Wire Line
+	7000 5200 7150 5200
+Wire Wire Line
+	7150 5400 7000 5400
+Wire Wire Line
+	7000 5200 7000 5300
+Wire Wire Line
+	6900 5300 7000 5300
+Connection ~ 7000 5300
+Wire Wire Line
+	7000 5300 7000 5400
 $EndSCHEMATC

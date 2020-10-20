@@ -3,4 +3,5 @@
   (lib (name MMA8452QR1)(type Legacy)(uri ${KIPRJMOD}/Components/MMA8452QR1/MMA8452QR1.lib)(options "")(descr ""))
   (lib (name PJ-037A)(type Legacy)(uri ${KIPRJMOD}/Components/PJ-037A/PJ-037A.lib)(options "")(descr ""))
   (lib (name LIS2DH12TR)(type Legacy)(uri ${KIPRJMOD}/Components/LIS2DH12TR/LIS2DH12TR.lib)(options "")(descr ""))
+  (lib (name FSM4JSMA)(type Legacy)(uri C:/Users/jonb1/Documents/GitHub/TackleSensorPCB/TackleSensorPCB/Components/FSM4JSMA/FSM4JSMA.lib)(options "")(descr ""))
 )
