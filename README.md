@@ -6,3 +6,8 @@
  The current prototype design in the kicad repo looks like:
 
  ![The prototype](docs/pictures/prototype1.png)
+
+Also take a look at:
+
+ * [The Typical Use](./docs/TypicalUse.md)
+ * [The Schematic](./docs/Schematics/schematic.pdf)
