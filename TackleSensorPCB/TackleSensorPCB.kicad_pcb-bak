@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 20)
     (tracks 248)
     (zones 0)
     (modules 24)
@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -251,6 +251,11 @@
       (net 1 GND))
     (pad 2 smd rect (at -0.765 -0.25 270) (size 0.45 0.35) (layers F.Cu F.Paste F.Mask)
       (net 3 +3V3))
+    (model ${KIPRJMOD}/Components/LIS2DH12TR/LIS2DH12TR--3DModel-STEP-56544.STEP
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 180))
+    )
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5F870E16)
@@ -341,7 +346,7 @@
     )
   )
 
-  (module MSP430FR2433:QFN50P400X400X100-25N (layer F.Cu) (tedit 5F8CFF88) (tstamp 5F871011)
+  (module MSP430FR2433:QFN50P400X400X100-25N (layer F.Cu) (tedit 5F8F5ACB) (tstamp 5F871011)
     (at 117.84 71.5 270)
     (path /5F8265C7)
     (fp_text reference U2 (at 0.175 -3.635 90) (layer F.SilkS)
@@ -369,7 +374,8 @@
     (fp_line (start -2.615 -2.615) (end 2.615 -2.615) (layer F.CrtYd) (width 0.05))
     (fp_line (start -2.615 2.615) (end -2.615 -2.615) (layer F.CrtYd) (width 0.05))
     (fp_line (start 2.615 2.615) (end 2.615 -2.615) (layer F.CrtYd) (width 0.05))
-    (pad 25 smd rect (at 0 0 270) (size 2.45 2.45) (layers F.Cu F.Mask))
+    (pad 25 smd rect (at 0 0 270) (size 2.45 2.45) (layers F.Cu F.Mask)
+      (net 1 GND))
     (pad 18 smd rect (at 1.935 -1.25 270) (size 0.86 0.27) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
     (pad 17 smd rect (at 1.935 -0.75 270) (size 0.86 0.27) (layers F.Cu F.Paste F.Mask)
@@ -418,6 +424,11 @@
       (net 15 S0_INT))
     (pad 7 smd rect (at -1.25 1.935 270) (size 0.27 0.86) (layers F.Cu F.Paste F.Mask)
       (net 32 INT1))
+    (model ${KIPRJMOD}/Components/MSP430FR2433IRGER/MSP430FR2433IRGER.STEP
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias (layer F.Cu) (tedit 5A65F72D) (tstamp 5F870FE1)
@@ -997,13 +1008,18 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/Components/0ZCJ0200FF2C.STEP
+      (offset (xyz 0 0 0.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 0 0))
+    )
   )
 
   (module SOD-123FL:SOD123FL (layer F.Cu) (tedit 5F867D31) (tstamp 5F870E29)
     (at 100 76 180)
     (path /5F849611)
     (fp_text reference D2 (at 0 2) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.015)))
+      (effects (font (size 1 1) (thickness 0.1)))
     )
     (fp_text value D (at 6.35 1.905) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.015)))
@@ -1025,6 +1041,11 @@
       (net 1 GND))
     (pad 1 smd rect (at -1.53 0 180) (size 1.25 1.16) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(C1-Pad1)"))
+    (model ${KIPRJMOD}/Components/SOD-123FL/SOD-123FL.STEP
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5F870E03)
@@ -1129,6 +1150,15 @@
     )
   )
 
+  (gr_text TX (at 98.3 64.4) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "RX\n" (at 95.6 64.3) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text Programming (at 87.9 64.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "3.3V to 17V" (at 84.8 77.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
